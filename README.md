@@ -2,9 +2,9 @@
 
 git branch
 
-git branch Radio-button-and-Checkbox
+git branch Select-Textarea-and-Button
 
-git checkout Radio-button-and-Checkbox
+git checkout Select-Textarea-and-Button
 
 git branch
 
@@ -14,8 +14,11 @@ git add .
 
 git status
 
-git commit -m "Radio-button-and-Checkbox"
+git commit -m "Select-Textarea-and-Button"
 
-git push -u origin Radio-button-and-Checkbox
+git push -u origin Select-Textarea-and-Button
+
+git push -f -u origin main
+
 
 git push -f -u origin main
