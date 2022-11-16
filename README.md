@@ -2,9 +2,9 @@
 
 git branch
 
-git branch Attributes-of-form-elements
+git branch Radio-button-and-Checkbox
 
-git checkout Attributes-of-form-elements
+git checkout Radio-button-and-Checkbox
 
 git branch
 
@@ -14,8 +14,8 @@ git add .
 
 git status
 
-git commit -m "Attributes-of-form-elements"
+git commit -m "Radio-button-and-Checkbox"
 
-git push -u origin Attributes-of-form-elements
+git push -u origin Radio-button-and-Checkbox
 
 git push -f -u origin main
