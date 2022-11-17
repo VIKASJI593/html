@@ -17,10 +17,10 @@ post method is secure you open it from inspect-network-select name-payload
 
 git branch
 
-git branch Form-Attributes-get
+git branch Media-Tags{audio/video/image}
 
 
-git checkout Form-Attributes-get
+git checkout Media-Tags{audio/video/image}
 
 git branch
 
@@ -30,9 +30,9 @@ git add .
 
 git status
 
-git commit -m "Form-Attributes-get"
+git commit -m "Media-Tags{audio/video/image}"
 
-git push -u origin Form-Attributes-get
+git push -u origin Media-Tags{audio/video/image}
 
 git push -f -u origin main
 

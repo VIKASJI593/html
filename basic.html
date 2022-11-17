@@ -2,39 +2,31 @@
 <html>
 <head>
 	
-	<title>Form Attributes</title>
+	<title>Media Tags</title>
 </head>
 <body>
 	
-	<form action="" method="get" >
+	<audio controls>
+<source src="static/audio.mp3" type ="audio/mp3">
 
-<p>Month</p>
-	<select name="month_selected">
+<source src="static/audio.ogg" type ="audio/ogg">
 
-<option >jan</option>
-<option selected>feb</option>
-<option >march</option>
-<option >april</option>
-<option >may</option>
-<option >june</option>
-<option >july</option>
-<option >august</option>
-<option >sept</option>
-<option >oct</option>
-<option >nov</option>
-<option >dec</option>
-	</select>
+</audio>
 
-
-
-<p>share your experience</p>
-<textarea name="experience"
-rows="10"
-cols="30"></textarea>
 <br>
+<video 
+height="500" width="1340" controls>
+	<source src="static/video.mp4" type="video/mp4">
+	<source src="video.ogg" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
 
-<input type="submit"> 
 
-</form>
+  <figure>
+	<img src="static/vikas.jpg"height ="200"width="300">
+	<figcaption>logo image</figcaption>
+  </figure>
 </body>
 </html>
+
+
